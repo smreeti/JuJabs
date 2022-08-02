@@ -1,43 +1,84 @@
-/*COMMON CSS */
-.goToTop {
-  position: fixed;
-  right: 25px;
-  bottom: 25px;
-  display: none;
-  padding: 10px;
-}
+  /*COMMON CSS */
+  .goToTop {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    padding: 10px;
+  }
 
-/*HOME PAGE */
-.slider-top-left {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  width: 250px;
-  color: black;
-  background-color: #ffb26c;
-  border: 5px solid beige;
-  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
-    sans-serif;
-  border-radius: 10px;
-  text-align: center;
-}
+  h1,
+  h2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
 
-.main_message {
-  font-weight: bold;
-  font-size: 40px;
-}
+  /*HOME PAGE */
+  .slider-top-left {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    color: black;
+    background-color: #ffb26c;
+    border: 5px solid beige;
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+      sans-serif;
+    border-radius: 10px;
+    text-align: center;
+  }
 
-.sub_message {
-  font-size: 24px;
-}
+  .main_message {
+    font-weight: bold;
+    font-size: 40px;
+  }
 
-.sub_validity_message {
-  font-size: 16px;
-}
+  .sub_message {
+    font-size: 24px;
+  }
 
-.shop_message {
-  display: flex;
-  justify-content: center;
-  background-color: #114062;
-  color: white;
-}
+  .sub_validity_message {
+    font-size: 16px;
+  }
+
+  .shop_message {
+    display: flex;
+    justify-content: center;
+    background-color: #114062;
+    color: white;
+  }
+
+  .shop_category_container h2 {
+    width: 100%;
+  }
+
+  .shop_category_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #bfdbe9;
+  }
+
+  .shop_category_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 250px;
+    flex-direction: column;
+  }
+
+  .shop_category_div img {
+    width: 20px;
+    border: 2px solid #e3e3e3;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  .shop_category_title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
