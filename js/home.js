@@ -27,4 +27,9 @@ $(document).ready(function () {
     $(function () {
         $("#tabs").tabs();
     });
+
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })
 });
