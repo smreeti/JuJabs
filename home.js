@@ -23,4 +23,8 @@ $(document).ready(function () {
     $(goToTop).click(() => {
         $("html,body").animate({ scrollTop: 0 }, "slow");
     });
+
+    $(function () {
+        $("#tabs").tabs();
+    });
 });

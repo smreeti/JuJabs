@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JuJabs Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
     <link rel="stylesheet" href="css/site.css">
 </head>
 
@@ -73,51 +74,225 @@
             </div>
         </div>
 
-        <section class="shop_category_container">
+        <section id="shop_category_container">
             <h2> Shop By Pet</h2>
             <div class="shop_category_div">
-                <img src="images/australian-shepherd.png" alt="">
+                <img src="images/australian-shepherd.png" alt="Dog">
                 <div class="shop_category">
                     <p class="shop_category_title"> Dog</p>
                 </div>
             </div>
             <div class="shop_category_div">
-                <img src="images/fish.png" alt="">
+                <img src="images/cat.png" alt="Cat">
+                <div class="shop_category">
+                    <p class="shop_category_title"> Cat</p>
+                </div>
+            </div>
+            <div class="shop_category_div">
+                <img src="images/fish.png" alt="Fish">
                 <div class="shop_category">
                     <p class="shop_category_title"> Fish</p>
                 </div>
             </div>
             <div class="shop_category_div">
-                <img src="images/parrot.png" alt="">
+                <img src="images/parrot.png" alt="Bird">
                 <div class="shop_category">
                     <p class="shop_category_title"> Bird</p>
                 </div>
             </div>
             <div class="shop_category_div">
-                <img src="images/turtle.png" alt="">
+                <img src="images/turtle.png" alt="Reptile">
                 <div class="shop_category">
                     <p class="shop_category_title"> Reptile</p>
                 </div>
             </div>
             <div class="shop_category_div">
-                <img src="images/rat.png" alt="">
+                <img src="images/rat.png" alt="Small pet">
                 <div class="shop_category">
                     <p class="shop_category_title"> Small pet</p>
                 </div>
             </div>
         </section>
 
+        <section id="tabs_container">
+            <div id="tabs">
+                <ul>
+                    <li><a href="#topBrands">Top Brands</a></li>
+                    <li><a href="#featuredCategories">Featured Categories</a></li>
+                    <li><a href="#customerReviews">Customer Reviews</a></li>
+                </ul>
+
+                <div id="topBrands">
+                    <div id="top_brands_container">
+                        <!--https://www.flaticon.com/free-logo/farm_8124788?term=animal&page=1&position=5&page=1&position=5&related_id=8124788&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/freshHill.png" alt="Fresh Hill Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/farm_8124790?term=animal&page=1&position=6&page=1&position=6&related_id=8124790&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/freshMoo.png" alt="Fresh Moo Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/typography-logo_7412211?term=animal&page=1&position=1&page=1&position=1&related_id=7412211&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/northwest.png" alt="North West Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/typography-logo_7412190?term=animal&page=1&position=2&page=1&position=2&related_id=7412190&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/naturalis.png" alt="Naturalis Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/farm_8124798?term=animal&page=1&position=7&page=1&position=7&related_id=8124798&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/farmer.png" alt="Farmer Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/bee_8124784?term=animal&page=1&position=4&page=1&position=4&related_id=8124784&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/bees.png" alt="Bees Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/chicken_8124802?term=animal&page=1&position=8&page=1&position=8&related_id=8124802&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/chickenLogo.png" alt="Chicken Logo">
+                        </div>
+
+                        <!--https://www.flaticon.com/free-logo/restaurant_8124844?term=animal&page=1&position=10&page=1&position=10&related_id=8124844&origin=search-->
+                        <div class="top_brands_content">
+                            <img src="images/crayfish.png" alt="CrayFish Logo">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="featuredCategories">
+                    <div class="categories">
+                        <img src="images/pexels-nastyasensei-3318215 (1).jpg" alt="Smriti in Phewa Taal">
+
+                        <div class="categories_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/cat-2170495_1920 (1).jpg" alt="Smriti in Patan Durbar Square and eating kulfi">
+                        <div class="categories_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/dog-food-3226266_1920 (1).jpg" alt="Reading book">
+                        <div class="categories_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/british-shorthair-3215380_1920 (1).jpg" alt="photography">
+                        <div class="categories_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/cat-7315742_1920 (1).jpg" alt="photography">
+                        <div class="categories_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/cat-1182223_1920 (1).jpg" alt="photography">
+                        <div class="hobbies_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/dog-food-4693738_1920 (1).jpg" alt="photography">
+                        <div class="hobbies_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <img src="images/dog-food-5168940_1920.jpg" alt="photography">
+                        <div class="hobbies_description">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class ="item_price">$20.99-94.99</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="customerReviews">
+                    <div class="blog_content">
+                        <div class="blog_image">
+                            <img src="images/girl-6363743_1920.jpg" alt="Malena profile picture">
+                        </div>
+                        <div class="blog_messsage">
+                            <blockquote>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laborum harum fugit,
+                                libero, ipsum nemo
+                                tempora voluptatem id adipisci reiciendis ut et ad possimus nisi doloribus? Ea rerum
+                                pariatur praesentium!"
+                                <span class="customer_name">~ Lorem Ipsum</span>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="blog_content">
+                        <div class="blog_messsage" id="left_quote">
+                            <blockquote>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laborum harum fugit,
+                                libero, ipsum nemo
+                                tempora voluptatem id adipisci reiciendis ut et ad possimus nisi doloribus? Ea rerum
+                                pariatur praesentium!"
+                                <span class="customer_name">~ Dolor Sit</span>
+                            </blockquote>
+                        </div>
+                        <div class="blog_image" id="right_img">
+                            <img src="images/woman-1867715_1920.jpg" alt="Smriti profile picture">
+                        </div>
+                    </div>
+
+                    <p class="see_more"> See More</p>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--box slider plugin-->
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--tab plugin-->
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
     <script src="home.js"></script>
 </body>
 <footer>
-    <!-- <div class="goToTop">
+    <div class="goToTop">
         <img src="images/up-arrow.png" alt="Go to Top Arrow">
-    </div> -->
+    </div>
 </footer>
 
 </html>
