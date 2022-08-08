@@ -190,3 +190,92 @@
     font-weight: bold;
     font-size: 14px;
   }
+
+  #message_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e3e3e3;
+  }
+
+  #message {
+    width: 40%;
+  }
+
+  .main_message {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .sub_message {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .message_form_container {
+    padding: 20px 30px;
+  }
+
+  .message_form {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .message_grid_container {
+    display: grid;
+    grid-template-columns: 150px 300px 140px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    width: 290px;
+    height: 100px;
+    border: 3px solid #e3e3e3;
+  }
+
+  .message_form h2 {
+    margin-top: 0px;
+  }
+
+  .message_form label {
+    font-weight: bold;
+  }
+
+  .message_form input {
+    height: 25px;
+    border: 3px solid #e3e3e3;
+  }
+
+  .message_form span {
+    color: red;
+  }
+
+  .subscribe {
+    text-align: center;
+    padding-top: 18px;
+  }
+
+  /*Dialog box CSS*/
+  #dialog {
+    display: none;
+  }
+
+  #dialog-link {
+    height: 40px;
+    background-color: #f8ce1c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .dialog_message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+  }
