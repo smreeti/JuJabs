@@ -1,15 +1,7 @@
 $(document).ready(function () {
-    $('.slider').bxSlider(
-        {
-            auto: true,
-            autoControls: true,
-            captions: true,
-        }
-    );
-
     /* Functionality to Go to top page when the user have scrolled more than 20px. 
         If the user is at the top section itself, hide the icon to go to top.
-        */
+    */
     let goToTop = $(".goToTop")[0];
     window.onscroll = () => {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
