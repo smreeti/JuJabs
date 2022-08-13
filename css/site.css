@@ -1,0 +1,255 @@
+/*COMMON CSS */
+.goToTop {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: none;
+  padding: 10px;
+}
+
+/*HOME PAGE */
+.slider-top-left {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 250px;
+  color: black;
+  background-color: #ffb26c;
+  border: 5px solid beige;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main_message {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.sub_message {
+  font-size: 24px;
+}
+
+.sub_validity_message {
+  font-size: 16px;
+}
+
+.shop_message {
+  display: flex;
+  justify-content: center;
+  background-color: #114062;
+  color: white;
+}
+
+#appLogo {
+  float: left;
+  width: 200px
+}
+
+#headerNav {
+  margin-right: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+#navbar {
+  display: flex;
+  float: right;
+}
+
+header {
+  background-color: #942C00;
+  height: 62px;
+}
+
+main {
+  margin: 0px 30px;
+}
+
+#servicesHeading {
+  margin-top: 60px;
+  margin-left: 150px;
+  font-size: 50px;
+  font-family: cursive;
+  color: #8E0606;
+}
+
+a {
+  text-decoration: none;
+}
+
+#servicesSection {
+  /* border-top: 1px solid brown; */
+  display: flex;
+}
+
+#selections {
+  margin-top: 100px;
+  width: 300px;
+}
+
+#availabilitySection {
+  cursor: pointer;
+  color: brown;
+}
+
+#priceSection {
+  margin-top: 10px;
+  cursor: pointer;
+  color: brown;
+}
+
+#dogFoodOneDetails,
+#dogFoodTwoDetails,
+#foodData {
+  display: grid;
+}
+
+#foodData {
+  margin-top: 100px;
+}
+
+.ImageOne {
+  background-color: #c26e77;
+}
+
+.ImageTwo {
+  background-color: beige;
+}
+
+.dogFoodImage {
+  border-radius: 10px;
+  width: 560px;
+}
+
+#noOfProducts {
+  float: left;
+}
+
+#displaySymbols {
+  float: right;
+}
+
+#foodProducts {
+  display: grid;
+  width: auto;
+  grid-template-columns: 565px auto;
+  grid-column-gap: 30px;
+}
+
+.smallIcon,
+.barsIcon {
+  margin-left: 5px;
+}
+
+.largeIcon,
+.smallIcon,
+.barsIcon {
+  margin-left: 5px;
+  font-size: large;
+}
+
+.foodItemName,
+.foodItemCost {
+  color: #A30000;
+}
+
+#banner {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  background-color: #eddbcb;
+  border-radius: 20px;
+}
+
+#servicesText {
+  width: 540px;
+}
+
+#services {
+  display: grid;
+  opacity: 0;
+  height: 0px;
+  margin-left: 15px;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#servicesList {
+  cursor: pointer;
+  color: brown;
+}
+
+#products {
+  cursor: pointer;
+  color: brown;
+  margin-bottom: 10px;
+}
+
+#trainingServices, #groomingServices {
+  display: none;
+  width: 1000px;
+  background-color: beige;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+#trainingImage, #daycareImage, #groomingImage {
+  width: 800px;
+  margin: auto;
+}
+
+#trainingText, #daycareText, #groomingText {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+#daycareServices {
+  display: grid;
+  width: 1000px;
+  background-color: blanchedalmond;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+#daycareImage {
+  height: 448px;
+}
+
+#daycareText {
+  text-align: center;
+  width: 750px;
+  margin: auto;
+}
+
+#availablityOptions {
+  display: grid;
+  opacity: 0;
+  height: 0px;
+  margin-left: 15px;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#productPriceValues {
+  width: 130px;
+}
+
+#endValue {
+  float: right;
+}
+
+#productPriceSection {
+  display: grid;
+  opacity: 0;
+  height: 0px;
+  margin-left: 15px;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#range {
+  width: 130px;
+}
