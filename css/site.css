@@ -63,6 +63,13 @@ header {
   height: 62px;
 }
 
+h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
 main {
   margin: 0px 30px;
 }
@@ -187,7 +194,8 @@ a {
   margin-bottom: 10px;
 }
 
-#trainingServices, #groomingServices {
+#trainingServices,
+#groomingServices {
   display: none;
   width: 1000px;
   background-color: beige;
@@ -195,12 +203,16 @@ a {
   border-radius: 30px;
 }
 
-#trainingImage, #daycareImage, #groomingImage {
+#trainingImage,
+#daycareImage,
+#groomingImage {
   width: 800px;
   margin: auto;
 }
 
-#trainingText, #daycareText, #groomingText {
+#trainingText,
+#daycareText,
+#groomingText {
   text-align: center;
   width: 500px;
   margin: auto;

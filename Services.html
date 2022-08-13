@@ -16,7 +16,7 @@
     <div id="navbar">
       <h3><a id="headerNav" href="./Services.html">Services</a></h3>
       <h3><a id="headerNav">Contact Us</a></h3>
-      <h3><a id="headerNav">About Us</a></h3>
+      <h3><a id="headerNav" href="./about.html">About Us</a></h3>
     </div>
   </header>
   <main>
@@ -429,21 +429,21 @@
     }
     function showProducts() {
       if (document.getElementById('inStock').checked && document.getElementById('outOfStock').checked) {
-      //Show all the products
+        //Show all the products
         var elements = document.getElementsByClassName("outOfStockFood");
         document.getElementById('noOfProducts').innerHTML = '15 Products';
         for (var i = 0; i < elements.length; i++) {
           elements[i].style.display = 'grid';
         }
       } else if (document.getElementById('inStock').checked) {
-      //Show in-stock products
+        //Show in-stock products
         var elements = document.getElementsByClassName("outOfStockFood");
         document.getElementById('noOfProducts').innerHTML = '10 Products';
         for (var i = 0; i < elements.length; i++) {
           elements[i].style.display = 'none';
         }
       } else if (document.getElementById('outOfStock').checked) {
-      //Show out of stock products
+        //Show out of stock products
         var elements = document.getElementsByClassName("inStockFood");
         document.getElementById('noOfProducts').innerHTML = '5 Products';
         for (var i = 0; i < elements.length; i++) {
