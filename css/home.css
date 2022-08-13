@@ -1,268 +1,260 @@
-  h1,
-  h2 {
-    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
-      sans-serif;
-    text-align: center;
-  }
+/*HOME PAGE */
+.slider-top-left {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 250px;
+  color: black;
+  background-color: #ffb26c;
+  border: 5px solid beige;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
 
-  /*HOME PAGE */
-  .slider-top-left {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    width: 250px;
-    color: black;
-    background-color: #ffb26c;
-    border: 5px solid beige;
-    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
-      sans-serif;
-    border-radius: 10px;
-    text-align: center;
-  }
+.main_message {
+  font-weight: bold;
+  font-size: 40px;
+}
 
-  .main_message {
-    font-weight: bold;
-    font-size: 40px;
-  }
+.sub_message {
+  font-size: 24px;
+}
 
-  .sub_message {
-    font-size: 24px;
-  }
+.sub_validity_message {
+  font-size: 16px;
+}
 
-  .sub_validity_message {
-    font-size: 16px;
-  }
+.shop_message {
+  display: flex;
+  justify-content: center;
+  background-color: #114062;
+  color: white;
+}
 
-  .shop_message {
-    display: flex;
-    justify-content: center;
-    background-color: #114062;
-    color: white;
-  }
+#shop_category_container h2 {
+  width: 100%;
+  margin-bottom: 40px;
+}
 
-  #shop_category_container h2 {
-    width: 100%;
-    margin-bottom: 40px;
-  }
+#shop_category_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 10px;
+  background-color: aliceblue;
+}
 
-  #shop_category_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px 10px;
-    background-color: aliceblue;
-  }
+.shop_category_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 200px;
+  flex-direction: column;
+}
 
-  .shop_category_div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex: 1 1 200px;
-    flex-direction: column;
-  }
+.shop_category_div img {
+  border: 2px solid #e3e3e3;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
 
-  .shop_category_div img {
-    border: 2px solid #e3e3e3;
-    background-color: #e3e3e3;
-    border-radius: 15px;
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-  }
+.shop_category_title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
 
-  .shop_category_title {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-  }
+#tabs_container {
+  margin: 50px;
+  min-height: 200px;
+}
 
-  #tabs_container {
-    margin: 50px;
-    min-height: 200px;
-  }
+#top_brands_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  grid-gap: 40px;
+}
 
-  #top_brands_container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    grid-gap: 40px;
-  }
+.top_brands_content img {
+  width: 180px;
+}
 
-  .top_brands_content img {
-    width: 180px;
-  }
+#blog_container {
+  text-align: center;
+  background-color: #e3f6f9;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  row-gap: 30px;
+}
 
-  #blog_container {
-    text-align: center;
-    background-color: #e3f6f9;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px;
-    row-gap: 30px;
-  }
+.blog_content {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
 
-  .blog_content {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-  }
+.blog_messsage {
+  display: inline-block;
+}
 
-  .blog_messsage {
-    display: inline-block;
-  }
+.blog_image img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
 
-  .blog_image img {
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-  }
+.blog_messsage {
+  font-size: 25px;
+  font-family: cursive;
+  font-style: italic;
+}
 
-  .blog_messsage {
-    font-size: 25px;
-    font-family: cursive;
-    font-style: italic;
-  }
+.customer_name {
+  font-style: normal;
+  font-weight: bold;
+  color: rebeccapurple;
+}
 
-  .customer_name {
-    font-style: normal;
-    font-weight: bold;
-    color: rebeccapurple;
-  }
+.see_more {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-  .see_more {
-    text-align: center;
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-  }
+#featuredCategories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 45px 20px;
+  background-color: #e3e3e3;
+  row-gap: 40px;
+}
 
-  #featuredCategories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 45px 20px;
-    background-color: #e3e3e3;
-    row-gap: 40px;
-  }
+.categories img {
+  width: 250px;
+  border-radius: 10px;
+}
 
-  .categories img {
-    width: 250px;
-    border-radius: 10px;
-  }
+.categories {
+  display: flex;
+  align-items: center;
+  flex: 1 1 200px;
+  flex-direction: column;
+  margin: 15px;
+  max-width: 260px;
+  padding: 25px 25px;
+  border: 2px solid #e3e3e3;
+  border-radius: 15px;
+  background-color: aliceblue;
+  box-shadow: 5px 3px #9d6f33;
+}
 
-  .categories {
-    display: flex;
-    align-items: center;
-    flex: 1 1 200px;
-    flex-direction: column;
-    margin: 15px;
-    max-width: 260px;
-    padding: 25px 25px;
-    border: 2px solid #e3e3e3;
-    border-radius: 15px;
-    background-color: aliceblue;
-    box-shadow: 5px 3px #9d6f33;
-  }
+.categories_description {
+  text-align: center;
+}
 
-  .categories_description {
-    text-align: center;
-  }
+.item_price {
+  font-weight: bold;
+  font-size: 14px;
+}
 
-  .item_price {
-    font-weight: bold;
-    font-size: 14px;
-  }
+#message_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e3e3e3;
+}
 
-  #message_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #e3e3e3;
-  }
+#message {
+  width: 40%;
+}
 
-  #message {
-    width: 40%;
-  }
+.main_message {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
 
-  .main_message {
-    font-weight: bold;
-    text-align: center;
-    font-size: 40px;
-  }
+.sub_message {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
 
-  .sub_message {
-    font-size: 20px;
-    text-align: center;
-    font-style: italic;
-  }
+.message_form_container {
+  padding: 20px 30px;
+}
 
-  .message_form_container {
-    padding: 20px 30px;
-  }
+.message_form {
+  width: 80%;
+  margin: 10px auto;
+}
 
-  .message_form {
-    width: 80%;
-    margin: 10px auto;
-  }
+.message_grid_container {
+  display: grid;
+  grid-template-columns: 150px 300px 140px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
-  .message_grid_container {
-    display: grid;
-    grid-template-columns: 150px 300px 140px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+textarea {
+  width: 290px;
+  height: 100px;
+  border: 3px solid #e3e3e3;
+}
 
-  textarea {
-    width: 290px;
-    height: 100px;
-    border: 3px solid #e3e3e3;
-  }
+.message_form h2 {
+  margin-top: 0px;
+}
 
-  .message_form h2 {
-    margin-top: 0px;
-  }
+.message_form label {
+  font-weight: bold;
+}
 
-  .message_form label {
-    font-weight: bold;
-  }
+.message_form input {
+  height: 25px;
+  border: 3px solid #e3e3e3;
+}
 
-  .message_form input {
-    height: 25px;
-    border: 3px solid #e3e3e3;
-  }
+.message_form span {
+  color: red;
+}
 
-  .message_form span {
-    color: red;
-  }
+.subscribe {
+  text-align: center;
+  padding-top: 18px;
+}
 
-  .subscribe {
-    text-align: center;
-    padding-top: 18px;
-  }
+/*Dialog box CSS*/
+#dialog {
+  display: none;
+}
 
-  /*Dialog box CSS*/
-  #dialog {
-    display: none;
-  }
+#dialog-link {
+  height: 40px;
+  background-color: #f8ce1c;
+  color: white;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+}
 
-  #dialog-link {
-    height: 40px;
-    background-color: #f8ce1c;
-    color: white;
-    font-size: 20px;
-    border: none;
-    font-weight: bold;
-  }
-
-  .dialog_message {
-    text-align: center;
-    color: green;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
+.dialog_message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}

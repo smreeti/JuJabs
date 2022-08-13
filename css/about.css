@@ -87,7 +87,9 @@
   }
 
   .inquire {
-      color: #fff;
+      color: #211197;
+      text-align: center;
+      font-weight: bold;
   }
 
   /* Company Vision,Mission, and Values using Accordion*/
@@ -101,14 +103,14 @@
       border: none;
       outline: none;
       transition: 0.4s;
+      font-size: 24px;
   }
 
   .cvmv {
-      margin-top: px;
+      margin-top: 30px;
       font-size: 35px;
       text-align: center;
       color: #000;
-      font-family: 'Poppins', sans-serif;
       background-color: #86dcf7;
   }
 
@@ -136,23 +138,17 @@
       width: 80%;
       margin: auto;
       background: rgb(60, 60, 60);
-      padding: 10px;
-      margin-top: 100px;
+      padding: 3px;
+      margin-top: 50px;
   }
-
-  h1 {
-      color: #000000;
-  }
-
-
 
   /* Our Team*/
   .Ourteam {
       margin-top: 80px;
+      margin-bottom: 25px;
       font-size: 35px;
       text-align: center;
-      color: #000;
-      font-family: 'Poppins', sans-serif;
+      color: #000
       background-color: #86dcf7;
   }
 
@@ -161,7 +157,6 @@
   }
 
   .about {
-
       display: flex;
       width: 33.33%;
       flex-direction: column;
@@ -169,7 +164,7 @@
       margin: 1rem;
       padding: 1rem;
       border-radius: 1rem;
-      background-color: grey;
+      /* background-color: grey; */
   }
 
   #aboutus {
@@ -194,11 +189,11 @@
   }
 
   .dog {
-      background-color: #e86b6d;
+      background-color: #D89798;
   }
 
   .parrot {
-      background-color: #0991bb;
+      background-color: #62B6D0;
   }
 
   .text {
@@ -243,13 +238,14 @@
       font-size: 32px;
   }
 
-  .title h2 span {
+  .title h3 span {
       font-weight: 600;
+      color: #211197;
   }
 
   .title h3 {
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 25px;
       color: #110606;
       font-weight: 400;
       position: relative;
@@ -344,12 +340,12 @@
   }
 
   .client-item.active .client-intro * {
-      color: #fff;
+      color: #211197;
   }
 
 
   .show-img img {
-      border-radius: 2px;
+      border-radius: 10px;
   }
 
   .show-text>div {
@@ -358,7 +354,7 @@
 
   .show-text .show-name {
       font-size: 20px;
-      color: var(--green);
+      color: black;
   }
 
   .show-text .show-designation {
@@ -373,10 +369,8 @@
   }
 
   .show-text a {
-      /* background-color: var(--green);*/
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-      padding: 10px 24px;
+      color: #211197;
+      text-decoration: underline;
       display: inline-block;
       margin-top: 8px;
       text-transform: uppercase;
