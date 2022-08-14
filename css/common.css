@@ -3,10 +3,6 @@
       margin: 5px 5px;
   }
 
-  * {
-      box-sizing: border-box;
-  }
-
   h1,
   h2 {
       text-align: center;
