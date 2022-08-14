@@ -1,4 +1,15 @@
 /*HOME PAGE */
+h1,
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
 .slider-top-left {
   position: absolute;
   top: 100px;
@@ -20,6 +31,11 @@
 
 .sub_message {
   font-size: 24px;
+}
+
+.sub_message a {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .sub_validity_message {
@@ -175,6 +191,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: #e3e3e3;
+  margin: 30px;
 }
 
 #message {
@@ -225,7 +242,7 @@ textarea {
 }
 
 .message_form input {
-  height: 25px;
+  height: 35px;
   border: 3px solid #e3e3e3;
 }
 

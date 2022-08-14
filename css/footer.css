@@ -1,0 +1,58 @@
+footer {
+	background-color: #114062;
+	margin: 0px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.jujabsFooter {
+	padding-bottom: 1rem!important;
+	margin-bottom: 1rem!important;
+	justify-content: center!important;
+	border-bottom: 1px solid #dee2e6!important;
+}
+
+.jujabsFooterDiv {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.jujabsContainer {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.jujabsFooter-links {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+	padding-top: 26px;
+	font-size: 25px;
+}
+
+.jujabsFooter-align-items {
+	justify-content: space-between;
+	text-align: center;
+	color: #fff;
+}
+
+.jujabsFooter-facebook {
+	width: 25px;
+	padding-top: 13px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+footer ul a:hover {
+	color: #FFB26C;
+}

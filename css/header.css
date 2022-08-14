@@ -1,0 +1,32 @@
+#appLogo {
+    float: left;
+    width: 200px
+  }
+  
+  #headerNav {
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #navbar {
+    display: flex;
+    float: right;
+  }
+  
+  header {
+    background-color: #942C00;
+    height: 62px;
+  }
+  
+  .header_heading {
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-weight: bold;
+    margin: 10px 0 !important;
+    font-size: 24px !important;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
