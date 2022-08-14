@@ -15,6 +15,7 @@
       bottom: 25px;
       display: none;
       padding: 10px;
+      cursor: pointer;
   }
 
   .goToTop img {
