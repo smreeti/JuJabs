@@ -53,6 +53,7 @@ a {
 #dogFoodTwoDetails,
 #foodData {
   display: grid;
+  margin-bottom: 10px;
 }
 
 #foodData {
@@ -70,10 +71,12 @@ a {
 .dogFoodImage {
   border-radius: 10px;
   width: 560px;
+  height: 400px;
 }
 
 #noOfProducts {
   float: left;
+  font-weight: bold;
 }
 
 #displaySymbols {
@@ -85,6 +88,7 @@ a {
   width: auto;
   grid-template-columns: 565px auto;
   grid-column-gap: 30px;
+  margin: 15px 0px;
 }
 
 .smallIcon,
@@ -143,6 +147,7 @@ a {
   background-color: beige;
   margin-top: 100px;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 #trainingImage,
@@ -157,7 +162,8 @@ a {
 #groomingText {
   text-align: center;
   width: 500px;
-  margin: auto;
+  margin: 15px auto;
+  letter-spacing: 1px;
 }
 
 #daycareServices {
@@ -166,6 +172,7 @@ a {
   background-color: blanchedalmond;
   margin-top: 100px;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 #daycareImage {
@@ -175,7 +182,6 @@ a {
 #daycareText {
   text-align: center;
   width: 750px;
-  margin: auto;
 }
 
 #availablityOptions {

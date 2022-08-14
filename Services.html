@@ -24,7 +24,6 @@
     </div>
   </header>
   <main>
-    <!-- <h1 id="servicesHeading">Services</h1> -->
     <div id="banner">
       <img src="./images/Services Banner.jpg" />
       <div id="servicesText">
@@ -38,34 +37,34 @@
       <div id="selections">
         <div id="products" onclick="openProducts()">Our Products &#x25BA;</div>
         <div id="servicesList">
-          <span id='ourServicesOption' onclick="openServices()">Our Services &#x25BC;</span>
+          <span id='ourServicesOption'>Our Services &#x25BC;</span>
           <div id="services">
-            <span onclick="openTraining()" id="training">Training &#x25BA;</span>
-            <span onclick="openDaycare()" id="adoption">Daycare &#x25BA;</span>
-            <span onclick="openGrooming()" id="grooming">Grooming & Bathing &#x25BA;</span>
+            <span id="training">Training &#x25BA;</span>
+            <span id="adoption">Daycare &#x25BA;</span>
+            <span id="grooming">Grooming & Bathing &#x25BA;</span>
           </div>
         </div>
         <div id="availabilitySection">
-          <span id="availabilityHeader" onclick="openAvailabilityOptions()">Product Availability &#x25BC;</span>
+          <span id="availabilityHeader">Product Availability &#x25BC;</span>
           <div id="availablityOptions">
             <div>
-              <input type="checkbox" id="inStock" name="inStock" onclick="showProducts()" />
+              <input type="checkbox" id="inStock" class="stockItems" name="inStock" />
               <label for="inStock">In Stock</label>
             </div>
             <div>
-              <input type="checkbox" id="outOfStock" name="outOfStock" onclick="showProducts()" />
+              <input type="checkbox" id="outOfStock" name="outOfStock" class="stockItems" />
               <label for="outOfStock">Out of Stock</label>
             </div>
           </div>
         </div>
         <div id="priceSection">
-          <span id="productPriceHeader" onclick="openProductPrices()">Product Price &#x25BC;</span>
+          <span id="productPriceHeader">Product Price &#x25BC;</span>
           <div id="productPriceSection">
             <div id="productPriceValues">
               <span id="startValue">$0</span>
               <span id="endValue">$9</span>
             </div>
-            <input type="range" id="range" step="1" name="vol" min="0" max="9" onchange="getPriceValue()">
+            <input type="range" id="range" step="1" name="vol" min="0" max="9">
           </div>
         </div>
       </div>
@@ -73,84 +72,84 @@
         <div id="iconSection">
           <div id="noOfProducts">15 Products</div>
           <div id="displaySymbols">
-            <i class="fa fa-square largeIcon" aria-hidden="true" onclick="largeIconDisplay()"></i>
-            <i class="fa fa-th-large smallIcon" aria-hidden="true" onclick="smallIconDisplay()"></i>
-            <i class="fa fa-bars barsIcon" onclick="barsDisplay()"></i>
+            <i class="fa fa-square largeIcon" aria-hidden="true"></i>
+            <i class="fa fa-th-large smallIcon" aria-hidden="true"></i>
+            <i class="fa fa-bars barsIcon"></i>
           </div>
         </div>
         <div id="foodProducts">
           <div id="dogFoodOneDetails" class="petFoodDetails inStockFood three">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_1-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_1-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$3.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails outOfStockFood four">
-            <img class="ImageTwo dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageTwo dogFoodImage" src="./images/istockphoto_2-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$4.99</span>
           </div>
           <div id="dogFoodOneDetails" class="petFoodDetails inStockFood six">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_1-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_3-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$6.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails outOfStockFood two">
-            <img class="ImageTwo dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageTwo dogFoodImage" src="./images/istockphoto_4-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$2.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails inStockFood eight">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_5-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$8.99</span>
           </div>
           <div id="dogFoodOneDetails" class="petFoodDetails inStockFood three">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_1-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_1-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$3.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails inStockFood five">
-            <img class="ImageTwo dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageTwo dogFoodImage" src="./images/istockphoto_2-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$5.99</span>
           </div>
           <div id="dogFoodOneDetails" class="petFoodDetails outOfStockFood two">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_1-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_3-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$2.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails inStockFood six">
-            <img class="ImageTwo dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageTwo dogFoodImage" src="./images/istockphoto_4-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$6.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails outOfStockFood eight">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_5-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$8.99</span>
           </div>
           <div id="dogFoodOneDetails" class="petFoodDetails inStockFood four">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_1-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_1-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$4.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails outOfStockFood nine">
-            <img class="ImageTwo dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageTwo dogFoodImage" src="./images/istockphoto_2-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$9.99</span>
           </div>
           <div id="dogFoodOneDetails" class="petFoodDetails inStockFood seven">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_1-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_3-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$7.99</span>
           </div>
-          <div id="dogFoodTwoDetails" class="petFoodDetails inStockFood one">
-            <img class="ImageTwo dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+          <div id="dogFoodTwoDetails" class="petFoodDetails inStockFood two">
+            <img class="ImageTwo dogFoodImage" src="./images/istockphoto_4-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
-            <span class="foodItemCost">$1.99</span>
+            <span class="foodItemCost">$2.99</span>
           </div>
           <div id="dogFoodTwoDetails" class="petFoodDetails inStockFood three">
-            <img class="ImageOne dogFoodImage" src="./images/Dog_Food_2-removebg-preview.png">
+            <img class="ImageOne dogFoodImage" src="./images/istockphoto_5-removebg-preview.png">
             <span class="foodItemName">Chicken, Rice & Vegetable Formula</span>
             <span class="foodItemCost">$3.99</span>
           </div>
@@ -198,354 +197,11 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    let servicesOpen = false;
-    let openAvailability = false;
-    let openPriceSection = false;
-    window.onload = () => {
-      // Setting color and font for icons
-      document.getElementsByClassName('smallIcon')[0].style.color = 'gray';
-      document.getElementsByClassName('barsIcon')[0].style.color = 'gray';
-      document.getElementsByClassName('largeIcon')[0].style.color = 'black';
-      document.getElementById('products').style.fontWeight = 'bold';
-      // Hide Other Services other than Products
-      document.getElementById('trainingServices').style.display = 'none';
-      document.getElementById('daycareServices').style.display = 'none';
-      document.getElementById('groomingServices').style.display = 'none';
-    }
-    function largeIconDisplay() {
-      // Setting width and border for Images
-      var elements = document.getElementsByClassName("dogFoodImage");
-      for (var i = 0; i < elements.length; i++) {
-        elements[i].style.width = (560 + "px");
-        elements[i].style.borderRadius = (10 + "px");
-      }
-      // Setting width and display for Images div
-      var petFoodDetails = document.getElementsByClassName("petFoodDetails");
-      for (var i = 0; i < elements.length; i++) {
-        petFoodDetails[i].style.width = (0 + "px");
-        petFoodDetails[i].style.display = ("grid");
-        petFoodDetails[i].style.marginBottom = ("0px");
-      }
-      // Setting margin for Food Item Name
-      var foodItemName = document.getElementsByClassName("foodItemName");
-      for (var i = 0; i < elements.length; i++) {
-        foodItemName[i].style.margin = "0px";
-      }
-      // Setting margin for Food Item Price
-      var foodItemCost = document.getElementsByClassName("foodItemCost");
-      for (var i = 0; i < elements.length; i++) {
-        foodItemCost[i].style.margin = "0px";
-      }
-      // Setting display, width for Food Items Section
-      document.getElementById('foodProducts').style.gridTemplateColumns = '565px auto';
-      document.getElementById('foodProducts').style.gridColumnGap = '30px';
-      document.getElementById('foodProducts').style.display = 'grid';
-      document.getElementById('foodProducts').style.width = 'auto';
-      document.getElementById('iconSection').style.width = '1150px';
-      document.getElementsByClassName('barsIcon')[0].style.color = 'gray';
-      document.getElementsByClassName('largeIcon')[0].style.color = 'black';
-      document.getElementsByClassName('smallIcon')[0].style.color = 'gray';
-    }
-    function smallIconDisplay() {
-      // Setting width and border for Images
-      var elements = document.getElementsByClassName("dogFoodImage");
-      for (var i = 0; i < elements.length; i++) {
-        elements[i].style.width = (265 + "px");
-      }
-      // Setting width and display for Images div
-      var petFoodDetails = document.getElementsByClassName("petFoodDetails");
-      for (var i = 0; i < elements.length; i++) {
-        petFoodDetails[i].style.display = ("grid");
-        petFoodDetails[i].style.marginBottom = ("0px");
-      }
-      // Setting margin for Food Item Name
-      var foodItemName = document.getElementsByClassName("foodItemName");
-      for (var i = 0; i < elements.length; i++) {
-        foodItemName[i].style.margin = "0px";
-      }
-      // Setting margin for Food Item Price
-      var foodItemCost = document.getElementsByClassName("foodItemCost");
-      for (var i = 0; i < elements.length; i++) {
-        foodItemCost[i].style.margin = "0px";
-      }
-      // Setting display, width for Food Items Section
-      document.getElementById('foodProducts').style.gridTemplateColumns = '275px 275px 275px 270px';
-      document.getElementById('foodProducts').style.gridColumnGap = '20px';
-      document.getElementsByClassName('smallIcon')[0].style.color = 'black';
-      document.getElementsByClassName('barsIcon')[0].style.color = 'gray';
-      document.getElementsByClassName('largeIcon')[0].style.color = 'gray';
-    }
-    function barsDisplay() {
-      // Setting width and border for Images
-      var elements = document.getElementsByClassName("dogFoodImage");
-      for (var i = 0; i < elements.length; i++) {
-        elements[i].style.width = (265 + "px");
-      }
-      // Setting width and display for Images div
-      var petFoodDetails = document.getElementsByClassName("petFoodDetails");
-      for (var i = 0; i < elements.length; i++) {
-        petFoodDetails[i].style.width = (1150 + "px");
-        petFoodDetails[i].style.marginBottom = (50 + "px");
-        petFoodDetails[i].style.display = "flex";
-      }
-      // Setting margin for Food Item Name
-      var foodItemName = document.getElementsByClassName("foodItemName");
-      for (var i = 0; i < elements.length; i++) {
-        foodItemName[i].style.margin = "auto 30px";
-      }
-      // Setting margin for Food Item Price
-      var foodItemCost = document.getElementsByClassName("foodItemCost");
-      for (var i = 0; i < elements.length; i++) {
-        foodItemCost[i].style.margin = "auto 0px auto 518px";
-      }
-      // Setting display, width for Food Items Section
-      document.getElementById('foodProducts').style.display = 'grid';
-      document.getElementById('foodProducts').style.gridTemplateColumns = 'none';
-      document.getElementsByClassName('barsIcon')[0].style.color = 'black';
-      document.getElementsByClassName('largeIcon')[0].style.color = 'gray';
-      document.getElementsByClassName('smallIcon')[0].style.color = 'gray';
-    }
-    function closeServices() {
-      //Closing services accordian
-      if (servicesOpen) {
-        document.getElementById('services').style.height = '0px';
-        document.getElementById('services').style.transition = 'opacity 0.5s ease, height 1s ease';
-        document.getElementById('services').style.opacity = '0';
-        document.getElementById('services').style.marginTop = 'none';
-        document.getElementById('services').style.visibility = 'hidden';
-        servicesOpen = false;
-      }
-    }
-    function closeAvailability() {
-      //Closing product availability accordian
-      if (openAvailability) {
-        document.getElementById('availablityOptions').style.height = '0px';
-        document.getElementById('availablityOptions').style.transition = 'opacity 0.5s ease, height 1s ease';
-        document.getElementById('availablityOptions').style.opacity = '0';
-        document.getElementById('availablityOptions').style.marginTop = 'none';
-        document.getElementById('availablityOptions').style.visibility = 'hidden';
-        openAvailability = false;
-      }
-    }
-    function closePrices() {
-      //Closing product price accordian
-      if (openPriceSection) {
-        document.getElementById('productPriceSection').style.height = '0px';
-        document.getElementById('productPriceSection').style.transition = 'opacity 0.5s ease, height 1s ease';
-        document.getElementById('productPriceSection').style.opacity = '0';
-        document.getElementById('productPriceSection').style.marginTop = 'none';
-        document.getElementById('productPriceSection').style.visibility = 'hidden';
-        openPriceSection = false;
-      }
-    }
-    function openServices() {
-      document.getElementById('foodData').style.display = 'none';
-      document.getElementById('products').style.fontWeight = '100';
-      document.getElementById('ourServicesOption').style.fontWeight = 'bold';
-      document.getElementById('training').style.fontWeight = 'bold';
-      document.getElementById('availabilitySection').style.fontWeight = '100';
-      document.getElementById('priceSection').style.fontWeight = '100';
-      document.getElementById('trainingServices').style.display = 'grid';
-      if (!servicesOpen) {
-        document.getElementById('services').style.height = '110px';
-        document.getElementById('services').style.transition = 'opacity 3s ease, height 1s ease';
-        document.getElementById('services').style.opacity = '1';
-        document.getElementById('services').style.marginTop = '10px';
-        document.getElementById('services').style.visibility = 'visible';
-        servicesOpen = true;
-      } else {
-        document.getElementById('services').style.height = '0px';
-        document.getElementById('services').style.transition = 'opacity 0.5s ease, height 1s ease';
-        document.getElementById('services').style.opacity = '0';
-        document.getElementById('services').style.marginTop = 'none';
-        document.getElementById('services').style.visibility = 'hidden';
-        servicesOpen = false;
-      }
-      closeAvailability();
-      closePrices();
-    }
-    function openProducts() {
-      document.getElementById('foodData').style.display = 'grid';
-      document.getElementById('trainingServices').style.display = 'none';
-      document.getElementById('daycareServices').style.display = 'none';
-      document.getElementById('groomingServices').style.display = 'none';
-      document.getElementById('products').style.fontWeight = 'bold';
-      document.getElementById('ourServicesOption').style.fontWeight = '100';
-      document.getElementById('training').style.fontWeight = '100';
-      document.getElementById('availabilitySection').style.fontWeight = '100';
-      document.getElementById('priceSection').style.fontWeight = '100';
-      closeServices();
-      closeAvailability();
-      closePrices();
-    }
-    function openTraining() {
-      //Hiding tabs other than Training and changing font-weight
-      document.getElementById('foodData').style.display = 'none';
-      document.getElementById('trainingServices').style.display = 'grid';
-      document.getElementById('daycareServices').style.display = 'none';
-      document.getElementById('groomingServices').style.display = 'none';
-      document.getElementById('products').style.fontWeight = '100';
-      document.getElementById('ourServicesOption').style.fontWeight = 'bold';
-      document.getElementById('training').style.fontWeight = 'bold';
-      document.getElementById('adoption').style.fontWeight = '100';
-      document.getElementById('grooming').style.fontWeight = '100';
-      document.getElementById('availabilitySection').style.fontWeight = '100';
-      document.getElementById('priceSection').style.fontWeight = '100';
-    }
-    function openDaycare() {
-      //Hiding tabs other than Daycare and changing font-weight
-      document.getElementById('foodData').style.display = 'none';
-      document.getElementById('trainingServices').style.display = 'none';
-      document.getElementById('daycareServices').style.display = 'grid';
-      document.getElementById('groomingServices').style.display = 'none';
-      document.getElementById('products').style.fontWeight = '100';
-      document.getElementById('ourServicesOption').style.fontWeight = 'bold';
-      document.getElementById('training').style.fontWeight = '100';
-      document.getElementById('adoption').style.fontWeight = 'bold';
-      document.getElementById('grooming').style.fontWeight = '100';
-      document.getElementById('availabilitySection').style.fontWeight = '100';
-      document.getElementById('priceSection').style.fontWeight = '100';
-    }
-    function openGrooming() {
-      //Hiding tabs other than Grooming and changing font-weight
-      document.getElementById('foodData').style.display = 'none';
-      document.getElementById('trainingServices').style.display = 'none';
-      document.getElementById('daycareServices').style.display = 'none';
-      document.getElementById('groomingServices').style.display = 'grid';
-      document.getElementById('products').style.fontWeight = '100';
-      document.getElementById('ourServicesOption').style.fontWeight = 'bold';
-      document.getElementById('training').style.fontWeight = '100';
-      document.getElementById('adoption').style.fontWeight = '100';
-      document.getElementById('grooming').style.fontWeight = 'bold';
-      document.getElementById('availabilitySection').style.fontWeight = '100';
-      document.getElementById('priceSection').style.fontWeight = '100';
-    }
-    function openAvailabilityOptions() {
-      //Hiding tabs other than Products and changing font-weight
-      document.getElementById('foodData').style.display = 'grid';
-      document.getElementById('trainingServices').style.display = 'none';
-      document.getElementById('daycareServices').style.display = 'none';
-      document.getElementById('groomingServices').style.display = 'none';
-      document.getElementById('products').style.fontWeight = '100';
-      document.getElementById('ourServicesOption').style.fontWeight = '100';
-      document.getElementById('training').style.fontWeight = '100';
-      document.getElementById('adoption').style.fontWeight = '100';
-      document.getElementById('grooming').style.fontWeight = '100';
-      document.getElementById('availabilityHeader').style.fontWeight = 'bold';
-      document.getElementById('priceSection').style.fontWeight = '100';
-      if (!openAvailability) {
-        document.getElementById('availablityOptions').style.height = '45px';
-        document.getElementById('availablityOptions').style.transition = 'opacity 3s ease, height 1s ease';
-        document.getElementById('availablityOptions').style.opacity = '1';
-        document.getElementById('availablityOptions').style.marginTop = '10px';
-        document.getElementById('availablityOptions').style.visibility = 'visible';
-        openAvailability = true;
-      } else {
-        document.getElementById('availablityOptions').style.height = '0px';
-        document.getElementById('availablityOptions').style.transition = 'opacity 0.5s ease, height 1s ease';
-        document.getElementById('availablityOptions').style.opacity = '0';
-        document.getElementById('availablityOptions').style.marginTop = 'none';
-        document.getElementById('availablityOptions').style.visibility = 'hidden';
-        openAvailability = false;
-      }
-      closeServices();
-      closePrices();
-    }
-    function showProducts() {
-      if (document.getElementById('inStock').checked && document.getElementById('outOfStock').checked) {
-        //Show all the products
-        var elements = document.getElementsByClassName("outOfStockFood");
-        document.getElementById('noOfProducts').innerHTML = '15 Products';
-        for (var i = 0; i < elements.length; i++) {
-          elements[i].style.display = 'grid';
-        }
-      } else if (document.getElementById('inStock').checked) {
-        //Show in-stock products
-        var elements = document.getElementsByClassName("outOfStockFood");
-        document.getElementById('noOfProducts').innerHTML = '10 Products';
-        for (var i = 0; i < elements.length; i++) {
-          elements[i].style.display = 'none';
-        }
-      } else if (document.getElementById('outOfStock').checked) {
-        //Show out of stock products
-        var elements = document.getElementsByClassName("inStockFood");
-        document.getElementById('noOfProducts').innerHTML = '5 Products';
-        for (var i = 0; i < elements.length; i++) {
-          elements[i].style.display = 'none';
-        }
-      }
-    }
-    function getPriceValue() {
-      //Show products based on selected range
-      var slider = document.getElementById("range");
-      var output = document.getElementById("endValue");
-      output.innerHTML = '$' + slider.value;
-      slider.oninput = function () {
-        output.innerHTML = '$' + this.value;
-      }
-      let count = 0;
-      const obj = {
-        one: 1,
-        two: 2,
-        three: 3,
-        four: 4,
-        five: 5,
-        six: 6,
-        seven: 7,
-        eight: 8,
-        nine: 9,
-      }
-      Object.keys(obj).map(data => {
-        if (obj[data] >= Number(slider.value)) {
-          const foodItems = document.getElementsByClassName(data);
-          for (var i = 0; i < foodItems.length; i++) {
-            foodItems[i].style.display = 'none';
-            count += 1;
-          }
-        } else {
-          const foodItems = document.getElementsByClassName(data);
-          for (var i = 0; i < foodItems.length; i++) {
-            foodItems[i].style.display = 'grid';
-          }
-        }
-      })
-      const finalCount = 15 - count;
-      document.getElementById('noOfProducts').innerHTML = finalCount + ' Products'
-    }
-    function openProductPrices() {
-      //Hiding tabs other than Products and changing font-weight
-      document.getElementById('foodData').style.display = 'grid';
-      document.getElementById('trainingServices').style.display = 'none';
-      document.getElementById('daycareServices').style.display = 'none';
-      document.getElementById('groomingServices').style.display = 'none';
-      document.getElementById('products').style.fontWeight = '100';
-      document.getElementById('ourServicesOption').style.fontWeight = '100';
-      document.getElementById('training').style.fontWeight = '100';
-      document.getElementById('adoption').style.fontWeight = '100';
-      document.getElementById('grooming').style.fontWeight = '100';
-      document.getElementById('availabilityHeader').style.fontWeight = '100';
-      document.getElementById('priceSection').style.fontWeight = 'bold';
-      if (!openPriceSection) {
-        document.getElementById('productPriceSection').style.height = '45px';
-        document.getElementById('productPriceSection').style.transition = 'opacity 3s ease, height 1s ease';
-        document.getElementById('productPriceSection').style.opacity = '1';
-        document.getElementById('productPriceSection').style.marginTop = '10px';
-        document.getElementById('productPriceSection').style.visibility = 'visible';
-        openPriceSection = true;
-      } else {
-        document.getElementById('productPriceSection').style.height = '0px';
-        document.getElementById('productPriceSection').style.transition = 'opacity 0.5s ease, height 1s ease';
-        document.getElementById('productPriceSection').style.opacity = '0';
-        document.getElementById('productPriceSection').style.marginTop = 'none';
-        document.getElementById('productPriceSection').style.visibility = 'hidden';
-        openPriceSection = false;
-      }
-      closeServices();
-      closeAvailability();
-    }
-  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/services.js"></script>
+  <!--location for Go to Top feature Javascript file -->
+  <script src="js/goToTop.js"></script>
 </body>
 
 </html>
