@@ -32,7 +32,6 @@ clientTabItems.forEach((item) => {
     });
 });
 
-
 function showInfo(item) {
     // finding elements using queryselector and display the items one by one when click on particular item 
     showDiv.querySelector('.show-img img').src = item.querySelector('.client-thumbnail img').src;

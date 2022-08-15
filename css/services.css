@@ -49,8 +49,8 @@ a {
   color: brown;
 }
 
-#dogFoodOneDetails,
-#dogFoodTwoDetails,
+.dogFoodOneDetails,
+.dogFoodTwoDetails,
 #foodData {
   display: grid;
   margin-bottom: 10px;
@@ -88,6 +88,7 @@ a {
   width: auto;
   grid-template-columns: 565px auto;
   grid-column-gap: 30px;
+  row-gap: 35px;
   margin: 15px 0px;
 }
 

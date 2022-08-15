@@ -1,12 +1,14 @@
   /*About Page CSS */
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 
-  /*:root{
-    --rale: 'Raleway', sans-serif;
-    --green: #7bbdff;
-}*/
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      color: #fff;
+  }
 
-  body {
+  .Bbody {
       background-image: linear-gradient(rgb(255, 255, 255), rgb(183, 207, 245));
       box-sizing: border-box;
       color: #fff;
@@ -77,7 +79,7 @@
 
   .content-section .content .button a:hover {
       background-color: #000000;
-      color: #6A010C;
+      color: #dfced0;
   }
 
   .inquire {
@@ -330,9 +332,9 @@
       transform: translateY(3px);
   }
 
-  .client-item.active {
+  /*.client-item.active {
       background-color: var(--green);
-  }
+  }*/
 
   .client-item.active .client-intro * {
       color: #211197;
@@ -373,7 +375,7 @@
   }
 
   .show-text a:hover {
-      background-color: #050303;
+      background-color: #065db4;
   }
 
   @media(min-width: 768px) {
