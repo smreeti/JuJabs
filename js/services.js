@@ -2,6 +2,7 @@ $(document).ready(function () {
   let servicesOpen = false;
   let openAvailability = false;
   let openPriceSection = false;
+  let largeMediumDisplay = true;
   // Setting color and font for icons
   document.getElementsByClassName('smallIcon')[0].style.color = 'gray';
   document.getElementsByClassName('barsIcon')[0].style.color = 'gray';
@@ -49,8 +50,8 @@ $(document).ready(function () {
     }
   }
   $('.largeIcon').click(function () {
-    console.log('hello')
     // Setting width and border for Images
+    largeMediumDisplay = true;
     var elements = document.getElementsByClassName("dogFoodImage");
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.width = (560 + "px");
@@ -87,6 +88,7 @@ $(document).ready(function () {
   })
   $('.smallIcon').click(function () {
     // Setting width and border for Images
+    largeMediumDisplay = true;
     var elements = document.getElementsByClassName("dogFoodImage");
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.width = (265 + "px");
@@ -117,6 +119,7 @@ $(document).ready(function () {
   })
   $('.barsIcon').click(function () {
     // Setting width and border for Images
+    largeMediumDisplay = false;
     var elements = document.getElementsByClassName("dogFoodImage");
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.width = (265 + "px");
@@ -315,7 +318,11 @@ $(document).ready(function () {
       } else {
         const foodItems = document.getElementsByClassName(data);
         for (var i = 0; i < foodItems.length; i++) {
-          foodItems[i].style.display = 'flex';
+          if (largeMediumDisplay) {
+            foodItems[i].style.display = 'grid';
+          } else {
+            foodItems[i].style.display = 'flex';
+          }
         }
       }
     })
