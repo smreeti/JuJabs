@@ -102,6 +102,7 @@ a {
 .barsIcon {
   margin-left: 5px;
   font-size: large;
+  cursor: pointer;
 }
 
 .foodItemName,
@@ -165,10 +166,11 @@ a {
   width: 500px;
   margin: 15px auto;
   letter-spacing: 1px;
+  font-size: 17px
 }
 
 #daycareServices {
-  display: grid;
+  display: none;
   width: 1000px;
   background-color: blanchedalmond;
   margin-top: 100px;
